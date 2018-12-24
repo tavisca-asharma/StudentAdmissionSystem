@@ -1,0 +1,9 @@
+C:\Users\asharma\source\repos\Tavisca.StudentAdmissionSystem\Tavisca.StudentAdmissionSystem.Service\bin\Debug\netcoreapp2.1\Tavisca.StudentAdmissionSystem.Service.deps.json
+C:\Users\asharma\source\repos\Tavisca.StudentAdmissionSystem\Tavisca.StudentAdmissionSystem.Service\bin\Debug\netcoreapp2.1\Tavisca.StudentAdmissionSystem.Service.dll
+C:\Users\asharma\source\repos\Tavisca.StudentAdmissionSystem\Tavisca.StudentAdmissionSystem.Service\bin\Debug\netcoreapp2.1\Tavisca.StudentAdmissionSystem.Service.pdb
+C:\Users\asharma\source\repos\Tavisca.StudentAdmissionSystem\Tavisca.StudentAdmissionSystem.Service\obj\Debug\netcoreapp2.1\Tavisca.StudentAdmissionSystem.Service.csprojAssemblyReference.cache
+C:\Users\asharma\source\repos\Tavisca.StudentAdmissionSystem\Tavisca.StudentAdmissionSystem.Service\obj\Debug\netcoreapp2.1\Tavisca.StudentAdmissionSystem.Service.csproj.CoreCompileInputs.cache
+C:\Users\asharma\source\repos\Tavisca.StudentAdmissionSystem\Tavisca.StudentAdmissionSystem.Service\obj\Debug\netcoreapp2.1\Tavisca.StudentAdmissionSystem.Service.AssemblyInfoInputs.cache
+C:\Users\asharma\source\repos\Tavisca.StudentAdmissionSystem\Tavisca.StudentAdmissionSystem.Service\obj\Debug\netcoreapp2.1\Tavisca.StudentAdmissionSystem.Service.AssemblyInfo.cs
+C:\Users\asharma\source\repos\Tavisca.StudentAdmissionSystem\Tavisca.StudentAdmissionSystem.Service\obj\Debug\netcoreapp2.1\Tavisca.StudentAdmissionSystem.Service.dll
+C:\Users\asharma\source\repos\Tavisca.StudentAdmissionSystem\Tavisca.StudentAdmissionSystem.Service\obj\Debug\netcoreapp2.1\Tavisca.StudentAdmissionSystem.Service.pdb
