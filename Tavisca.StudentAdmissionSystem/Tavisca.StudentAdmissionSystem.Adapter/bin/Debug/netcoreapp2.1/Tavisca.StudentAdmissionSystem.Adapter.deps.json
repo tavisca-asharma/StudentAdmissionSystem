@@ -6,12 +6,12 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v2.1": {
-      "Tavisca.StudentAdmissionSystem.Service/1.0.0": {
+      "Tavisca.StudentAdmissionSystem.Adapter/1.0.0": {
         "dependencies": {
-          "Tavisca.StudentAdmissionSystem.Adapter": "1.0.0"
+          "Newtonsoft.Json": "12.0.1"
         },
         "runtime": {
-          "Tavisca.StudentAdmissionSystem.Service.dll": {}
+          "Tavisca.StudentAdmissionSystem.Adapter.dll": {}
         }
       },
       "Newtonsoft.Json/12.0.1": {
@@ -21,19 +21,11 @@
             "fileVersion": "12.0.1.22727"
           }
         }
-      },
-      "Tavisca.StudentAdmissionSystem.Adapter/1.0.0": {
-        "dependencies": {
-          "Newtonsoft.Json": "12.0.1"
-        },
-        "runtime": {
-          "Tavisca.StudentAdmissionSystem.Adapter.dll": {}
-        }
       }
     }
   },
   "libraries": {
-    "Tavisca.StudentAdmissionSystem.Service/1.0.0": {
+    "Tavisca.StudentAdmissionSystem.Adapter/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
@@ -44,11 +36,6 @@
       "sha512": "sha512-pBR3wCgYWZGiaZDYP+HHYnalVnPJlpP1q55qvVb+adrDHmFMDc1NAKio61xTwftK3Pw5h7TZJPJEEVMd6ty8rg==",
       "path": "newtonsoft.json/12.0.1",
       "hashPath": "newtonsoft.json.12.0.1.nupkg.sha512"
-    },
-    "Tavisca.StudentAdmissionSystem.Adapter/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
     }
   }
 }

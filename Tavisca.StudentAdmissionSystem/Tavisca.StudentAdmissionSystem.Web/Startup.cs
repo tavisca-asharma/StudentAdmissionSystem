@@ -11,6 +11,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 using Tavisca.StudentAdmissionSystem.Adapter;
+using Tavisca.StudentAdmissionSystem.Adapter.Database;
 using Tavisca.StudentAdmissionSystem.Adapter.Model;
 using Tavisca.StudentAdmissionSystem.Service.DataContract.Model;
 
@@ -31,6 +32,7 @@ namespace Tavisca.StudentAdmissionSystem.Web
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
             services.AddSingleton<IStudentAdmissionSystem, Admission>();
             services.AddSingleton<IStudentAdmission, StudentAdmissionAdapter>();
+            services.AddSingleton<IDatabase, FileSystem>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

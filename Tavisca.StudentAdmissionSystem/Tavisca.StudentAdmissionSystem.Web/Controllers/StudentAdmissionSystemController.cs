@@ -19,11 +19,11 @@ namespace Tavisca.StudentAdmissionSystem.Web.Controllers
 
         [Route("admit_student")]
         [HttpPost]
-        public StudentUniqueDetailsAfterAdmission AdmitStudent(Student request)
+        public string /*StudentUniqueDetailsAfterAdmission*/ AdmitStudent([FromBody]Student request)
         {
             // student.Course = new ComputerScienceAndEngineering();
-            _studentAdmissionService.AdmitAStudentInCollege(request);
-            return null;
+            return _studentAdmissionService.AdmitAStudentInCollege(request);
+            
         }
     }
 

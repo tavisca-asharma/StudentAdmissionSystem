@@ -7,9 +7,14 @@ namespace Tavisca.StudentAdmissionSystem.Adapter
 {
     public class StudentAdmissionAdapter : IStudentAdmission
     {
-        public bool GetAStudentAdmittedInCollege(StudentAdmissionRequestResponseModel request)
+        private readonly IDatabase _fileSystem;
+        public StudentAdmissionAdapter(IDatabase fileSystem)
         {
-            return true;
+            this._fileSystem = fileSystem;
+        }
+        public string GetAStudentAdmittedInCollege(StudentAdmissionRequestResponseModel request)
+        {
+            return _fileSystem.SaveStudentInformation(request); 
         }
     }
 }

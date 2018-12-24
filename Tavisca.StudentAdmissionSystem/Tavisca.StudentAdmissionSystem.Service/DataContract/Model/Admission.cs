@@ -13,13 +13,13 @@ namespace Tavisca.StudentAdmissionSystem.Service.DataContract.Model
         {
             this._studentAdmission = studentAdmission;
         }
-        public StudentUniqueDetailsAfterAdmission AdmitAStudentInCollege(Student newStudentAdmissionRequest)
+        public string /*StudentUniqueDetailsAfterAdmission*/ AdmitAStudentInCollege(Student newStudentAdmissionRequest)
         {
             //apply validations
             var requestModel = newStudentAdmissionRequest.ToModel();
             //Here we will call the adapter layer
             var responseModel = _studentAdmission.GetAStudentAdmittedInCollege(requestModel);
-            return null;
+            return responseModel;
         }
     }
 }

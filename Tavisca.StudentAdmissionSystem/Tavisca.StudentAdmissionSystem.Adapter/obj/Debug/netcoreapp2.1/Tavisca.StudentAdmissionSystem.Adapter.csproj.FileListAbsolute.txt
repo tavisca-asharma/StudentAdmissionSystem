@@ -1,0 +1,9 @@
+C:\Users\asharma\Desktop\StudentAdmissionSystem\Tavisca.StudentAdmissionSystem\Tavisca.StudentAdmissionSystem.Adapter\bin\Debug\netcoreapp2.1\Tavisca.StudentAdmissionSystem.Adapter.deps.json
+C:\Users\asharma\Desktop\StudentAdmissionSystem\Tavisca.StudentAdmissionSystem\Tavisca.StudentAdmissionSystem.Adapter\bin\Debug\netcoreapp2.1\Tavisca.StudentAdmissionSystem.Adapter.dll
+C:\Users\asharma\Desktop\StudentAdmissionSystem\Tavisca.StudentAdmissionSystem\Tavisca.StudentAdmissionSystem.Adapter\obj\Debug\netcoreapp2.1\Tavisca.StudentAdmissionSystem.Adapter.csprojAssemblyReference.cache
+C:\Users\asharma\Desktop\StudentAdmissionSystem\Tavisca.StudentAdmissionSystem\Tavisca.StudentAdmissionSystem.Adapter\obj\Debug\netcoreapp2.1\Tavisca.StudentAdmissionSystem.Adapter.csproj.CoreCompileInputs.cache
+C:\Users\asharma\Desktop\StudentAdmissionSystem\Tavisca.StudentAdmissionSystem\Tavisca.StudentAdmissionSystem.Adapter\obj\Debug\netcoreapp2.1\Tavisca.StudentAdmissionSystem.Adapter.AssemblyInfoInputs.cache
+C:\Users\asharma\Desktop\StudentAdmissionSystem\Tavisca.StudentAdmissionSystem\Tavisca.StudentAdmissionSystem.Adapter\obj\Debug\netcoreapp2.1\Tavisca.StudentAdmissionSystem.Adapter.AssemblyInfo.cs
+C:\Users\asharma\Desktop\StudentAdmissionSystem\Tavisca.StudentAdmissionSystem\Tavisca.StudentAdmissionSystem.Adapter\bin\Debug\netcoreapp2.1\Tavisca.StudentAdmissionSystem.Adapter.pdb
+C:\Users\asharma\Desktop\StudentAdmissionSystem\Tavisca.StudentAdmissionSystem\Tavisca.StudentAdmissionSystem.Adapter\obj\Debug\netcoreapp2.1\Tavisca.StudentAdmissionSystem.Adapter.dll
+C:\Users\asharma\Desktop\StudentAdmissionSystem\Tavisca.StudentAdmissionSystem\Tavisca.StudentAdmissionSystem.Adapter\obj\Debug\netcoreapp2.1\Tavisca.StudentAdmissionSystem.Adapter.pdb

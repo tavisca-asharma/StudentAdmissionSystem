@@ -6,6 +6,6 @@ namespace Tavisca.StudentAdmissionSystem.Service.DataContract.Model
 {
     public interface IStudentAdmissionSystem
     {
-        StudentUniqueDetailsAfterAdmission AdmitAStudentInCollege(Student newStudentAdmissionRequest); 
+        string AdmitAStudentInCollege(Student newStudentAdmissionRequest); 
     }
 }

@@ -4,9 +4,8 @@ using System.Text;
 
 namespace Tavisca.StudentAdmissionSystem.Adapter.Model
 {
-    public interface IStudentAdmission
+    public interface IDatabase
     {
-        string GetAStudentAdmittedInCollege(StudentAdmissionRequestResponseModel request);
-     
+        string SaveStudentInformation(StudentAdmissionRequestResponseModel requestAdmission);
     }
 }
