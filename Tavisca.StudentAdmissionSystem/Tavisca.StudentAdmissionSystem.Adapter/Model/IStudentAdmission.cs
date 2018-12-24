@@ -6,7 +6,7 @@ namespace Tavisca.StudentAdmissionSystem.Adapter.Model
 {
     public interface IStudentAdmission
     {
-        string GetAStudentAdmittedInCollege(StudentAdmissionRequestResponseModel request);
+        string AdmitAStudentInCollege(StudentAdmissionRequest request);
      
     }
 }

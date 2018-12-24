@@ -9,7 +9,7 @@ namespace Tavisca.StudentAdmissionSystem.Adapter.Database
 {
     public class FileSystem : IDatabase
     {
-        public string SaveStudentInformation(StudentAdmissionRequestResponseModel newStudentInCollege)
+        public string SaveStudentInformation(StudentAdmissionRequest newStudentInCollege)
         { 
             string fileName = @"C:\Users\asharma\Desktop\StudentAdmissionSystem\Tavisca.StudentAdmissionSystem\Tavisca.StudentAdmissionSystem.Adapter\StudentsDatabaseFileSystem\"+newStudentInCollege.FName+" "+newStudentInCollege.LName+".txt";
             string newStudentObjectIntoString = null;
@@ -24,16 +24,7 @@ namespace Tavisca.StudentAdmissionSystem.Adapter.Database
                     newStudentObjectIntoString = JsonConvert.SerializeObject(newStudentInCollege);
                     Byte[] title = new UTF8Encoding(true).GetBytes(newStudentObjectIntoString);
                     fs.Write(title, 0, title.Length); 
-                }
-                // Open the stream and read it back.  
-                //using (StreamReader sr = File.OpenText(fileName))
-                //{
-                //    string s = "";
-                //    while ((s = sr.ReadLine()) != null)
-                //    {
-                //        Console.WriteLine(s);
-                //    }
-                //}
+                } 
             }
             catch (Exception Ex)
             {

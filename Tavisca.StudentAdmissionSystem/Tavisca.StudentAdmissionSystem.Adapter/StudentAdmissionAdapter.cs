@@ -12,7 +12,7 @@ namespace Tavisca.StudentAdmissionSystem.Adapter
         {
             this._fileSystem = fileSystem;
         }
-        public string GetAStudentAdmittedInCollege(StudentAdmissionRequestResponseModel request)
+        public string AdmitAStudentInCollege(StudentAdmissionRequest request)
         {
             return _fileSystem.SaveStudentInformation(request); 
         }

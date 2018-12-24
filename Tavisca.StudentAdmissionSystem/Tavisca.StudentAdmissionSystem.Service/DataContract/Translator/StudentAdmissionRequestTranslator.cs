@@ -8,9 +8,9 @@ namespace Tavisca.StudentAdmissionSystem.Service.DataContract.Translator
 {
     public static class StudentAdmissionRequestTranslator
     {
-        public static StudentAdmissionRequestResponseModel ToModel(this Student request)
+        public static StudentAdmissionRequest ToModel(this Student request)
         {
-            return new StudentAdmissionRequestResponseModel
+            return new StudentAdmissionRequest
             {
                 FName = request.FirstName,
                 LName = request.LastName

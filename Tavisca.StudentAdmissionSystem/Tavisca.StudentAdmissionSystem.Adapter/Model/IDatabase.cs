@@ -6,6 +6,6 @@ namespace Tavisca.StudentAdmissionSystem.Adapter.Model
 {
     public interface IDatabase
     {
-        string SaveStudentInformation(StudentAdmissionRequestResponseModel requestAdmission);
+        string SaveStudentInformation(StudentAdmissionRequest requestAdmission);
     }
 }

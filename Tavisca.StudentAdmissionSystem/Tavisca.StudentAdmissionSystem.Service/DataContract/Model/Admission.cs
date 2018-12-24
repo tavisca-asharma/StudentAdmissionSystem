@@ -18,7 +18,7 @@ namespace Tavisca.StudentAdmissionSystem.Service.DataContract.Model
             //apply validations
             var requestModel = newStudentAdmissionRequest.ToModel();
             //Here we will call the adapter layer
-            var responseModel = _studentAdmission.GetAStudentAdmittedInCollege(requestModel);
+            var responseModel = _studentAdmission.AdmitAStudentInCollege(requestModel);
             return responseModel;
         }
     }

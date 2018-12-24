@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Tavisca.StudentAdmissionSystem.Adapter.Model
 {
-    public class StudentAdmissionRequestResponseModel
+    public class StudentAdmissionRequest
     {
         public string FName { get; set; }
         public string LName { get; set; }
