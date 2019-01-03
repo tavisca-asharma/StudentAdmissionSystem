@@ -13,7 +13,27 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2. Host", "2. Host", "{C3C7
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3. Adapter", "3. Adapter", "{D9751B1B-5D92-4BF6-B5C1-3E47F5D2BFCD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tavisca.StudentAdmissionSystem.Adapter", "Tavisca.StudentAdmissionSystem.Adapter\Tavisca.StudentAdmissionSystem.Adapter.csproj", "{44651DE6-4B0C-433F-A846-658000CD3549}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tavisca.StudentAdmissionSystem.Adapter", "Tavisca.StudentAdmissionSystem.Adapter\Tavisca.StudentAdmissionSystem.Adapter.csproj", "{44651DE6-4B0C-433F-A846-658000CD3549}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4. Contract", "4. Contract", "{64497692-7B3A-416F-B003-0549482AAD4C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tavisca.StudentAdmissionSystem.Contract", "Tavisca.StudentAdmissionSystem.Contract\Tavisca.StudentAdmissionSystem.Contract.csproj", "{19A030C9-C962-42EF-9823-A48D7D0C0019}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5. Submodule", "5. Submodule", "{C3EDA073-E388-46B6-B20D-479672CEC6A4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tavisca.StudentAdmissionSystem.ConsulServices", "Tavisca.StudentAdmissionSystem.ConsulServices\Tavisca.StudentAdmissionSystem.ConsulServices.csproj", "{4B91983A-3E2F-4864-AF34-0B57AB961D7E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tavisca.Common.Plugins.Configuration.Core", "Submodules\platform-common\Tavisca.Common.Plugins.Configuration\Tavisca.Common.Plugins.Configuration.Core.csproj", "{77FB4266-8A9E-4B4C-B196-3406B0095DF9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tavisca.Common.Plugins.Configuration", "Submodules\platform-common\Tavisca.Common.Plugins.Consul\Tavisca.Common.Plugins.Configuration.csproj", "{9578CB32-2083-4B2B-80F7-5C95298FA03B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tavisca.Platform.Common.Core", "Submodules\platform-common\Tavisca.Platform.Common\Tavisca.Platform.Common.Core.csproj", "{F82E6A63-2514-4CC8-86AD-B3D1F2A538D2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tavisca.Platform.Common", "Submodules\platform-common\Tavisca.Platform.Common\Tavisca.Platform.Common.csproj", "{68B980E4-EB86-4883-A7EF-A14A1E133136}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tavisca.Platform.Common.Models.Core", "Submodules\platform-common\Tavisca.Platform.Common.Models\Tavisca.Platform.Common.Models.Core.csproj", "{559474C5-DE84-4DAB-AC38-E75F72E009A2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tavisca.Platform.Common.Models", "Submodules\platform-common\Tavisca.Platform.Common.Models\Tavisca.Platform.Common.Models.csproj", "{0E282446-4149-4819-974E-FE23ECB10C72}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +53,38 @@ Global
 		{44651DE6-4B0C-433F-A846-658000CD3549}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{44651DE6-4B0C-433F-A846-658000CD3549}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{44651DE6-4B0C-433F-A846-658000CD3549}.Release|Any CPU.Build.0 = Release|Any CPU
+		{19A030C9-C962-42EF-9823-A48D7D0C0019}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19A030C9-C962-42EF-9823-A48D7D0C0019}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19A030C9-C962-42EF-9823-A48D7D0C0019}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19A030C9-C962-42EF-9823-A48D7D0C0019}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4B91983A-3E2F-4864-AF34-0B57AB961D7E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B91983A-3E2F-4864-AF34-0B57AB961D7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B91983A-3E2F-4864-AF34-0B57AB961D7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B91983A-3E2F-4864-AF34-0B57AB961D7E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77FB4266-8A9E-4B4C-B196-3406B0095DF9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77FB4266-8A9E-4B4C-B196-3406B0095DF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77FB4266-8A9E-4B4C-B196-3406B0095DF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77FB4266-8A9E-4B4C-B196-3406B0095DF9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9578CB32-2083-4B2B-80F7-5C95298FA03B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9578CB32-2083-4B2B-80F7-5C95298FA03B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9578CB32-2083-4B2B-80F7-5C95298FA03B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9578CB32-2083-4B2B-80F7-5C95298FA03B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F82E6A63-2514-4CC8-86AD-B3D1F2A538D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F82E6A63-2514-4CC8-86AD-B3D1F2A538D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F82E6A63-2514-4CC8-86AD-B3D1F2A538D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F82E6A63-2514-4CC8-86AD-B3D1F2A538D2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{68B980E4-EB86-4883-A7EF-A14A1E133136}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68B980E4-EB86-4883-A7EF-A14A1E133136}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68B980E4-EB86-4883-A7EF-A14A1E133136}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68B980E4-EB86-4883-A7EF-A14A1E133136}.Release|Any CPU.Build.0 = Release|Any CPU
+		{559474C5-DE84-4DAB-AC38-E75F72E009A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{559474C5-DE84-4DAB-AC38-E75F72E009A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{559474C5-DE84-4DAB-AC38-E75F72E009A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{559474C5-DE84-4DAB-AC38-E75F72E009A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E282446-4149-4819-974E-FE23ECB10C72}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E282446-4149-4819-974E-FE23ECB10C72}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E282446-4149-4819-974E-FE23ECB10C72}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E282446-4149-4819-974E-FE23ECB10C72}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -41,6 +93,14 @@ Global
 		{41F19E15-863A-4706-884A-A978577410E3} = {C3C73F25-04F9-4D2F-8AB7-9C402BCC2066}
 		{BAA40B8A-54A4-4FCD-9723-8528AB6C4FD1} = {56910ABA-62AE-4BA3-825C-CF0065D5C361}
 		{44651DE6-4B0C-433F-A846-658000CD3549} = {D9751B1B-5D92-4BF6-B5C1-3E47F5D2BFCD}
+		{19A030C9-C962-42EF-9823-A48D7D0C0019} = {64497692-7B3A-416F-B003-0549482AAD4C}
+		{4B91983A-3E2F-4864-AF34-0B57AB961D7E} = {C3C73F25-04F9-4D2F-8AB7-9C402BCC2066}
+		{77FB4266-8A9E-4B4C-B196-3406B0095DF9} = {C3EDA073-E388-46B6-B20D-479672CEC6A4}
+		{9578CB32-2083-4B2B-80F7-5C95298FA03B} = {C3EDA073-E388-46B6-B20D-479672CEC6A4}
+		{F82E6A63-2514-4CC8-86AD-B3D1F2A538D2} = {C3EDA073-E388-46B6-B20D-479672CEC6A4}
+		{68B980E4-EB86-4883-A7EF-A14A1E133136} = {C3EDA073-E388-46B6-B20D-479672CEC6A4}
+		{559474C5-DE84-4DAB-AC38-E75F72E009A2} = {C3EDA073-E388-46B6-B20D-479672CEC6A4}
+		{0E282446-4149-4819-974E-FE23ECB10C72} = {C3EDA073-E388-46B6-B20D-479672CEC6A4}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {78537CB4-B83B-40FC-9CC7-87FF751E994F}

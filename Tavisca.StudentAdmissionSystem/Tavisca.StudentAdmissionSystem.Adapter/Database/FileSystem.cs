@@ -4,14 +4,15 @@ using System.Collections.Generic;
 using System.IO;
 using System.Text;
 using Tavisca.StudentAdmissionSystem.Adapter.Model;
+using Tavisca.StudentAdmissionSystem.Contract.Model;
 
 namespace Tavisca.StudentAdmissionSystem.Adapter.Database
 {
     public class FileSystem : IDatabase
     {
-        public string SaveStudentInformation(StudentAdmissionRequest newStudentInCollege)
+        public Student SaveStudentInformation(Student newStudentInCollege)
         { 
-            string fileName = @"C:\Users\asharma\Desktop\StudentAdmissionSystem\Tavisca.StudentAdmissionSystem\Tavisca.StudentAdmissionSystem.Adapter\StudentsDatabaseFileSystem\"+newStudentInCollege.FName+" "+newStudentInCollege.LName+".txt";
+            string fileName = @"C:\Users\asharma\Desktop\StudentAdmissionSystem\Tavisca.StudentAdmissionSystem\Tavisca.StudentAdmissionSystem.Adapter\StudentsDatabaseFileSystem\"+newStudentInCollege.FirstName+" "+newStudentInCollege.LastName+".txt";
             string newStudentObjectIntoString = null;
             try
             {  
@@ -30,7 +31,7 @@ namespace Tavisca.StudentAdmissionSystem.Adapter.Database
             {
                 Console.WriteLine(Ex.ToString());
             } 
-            return newStudentObjectIntoString;
+            return newStudentInCollege;
         }
     }
 }

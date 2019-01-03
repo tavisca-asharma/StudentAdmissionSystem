@@ -11,7 +11,9 @@ C:\Users\asharma\Desktop\StudentAdmissionSystem\Tavisca.StudentAdmissionSystem\T
 C:\Users\asharma\Desktop\StudentAdmissionSystem\Tavisca.StudentAdmissionSystem\Tavisca.StudentAdmissionSystem.Service\bin\Debug\netcoreapp2.1\Tavisca.StudentAdmissionSystem.Service.dll
 C:\Users\asharma\Desktop\StudentAdmissionSystem\Tavisca.StudentAdmissionSystem\Tavisca.StudentAdmissionSystem.Service\bin\Debug\netcoreapp2.1\Tavisca.StudentAdmissionSystem.Service.pdb
 C:\Users\asharma\Desktop\StudentAdmissionSystem\Tavisca.StudentAdmissionSystem\Tavisca.StudentAdmissionSystem.Service\bin\Debug\netcoreapp2.1\Tavisca.StudentAdmissionSystem.Adapter.dll
+C:\Users\asharma\Desktop\StudentAdmissionSystem\Tavisca.StudentAdmissionSystem\Tavisca.StudentAdmissionSystem.Service\bin\Debug\netcoreapp2.1\Tavisca.StudentAdmissionSystem.Contract.dll
 C:\Users\asharma\Desktop\StudentAdmissionSystem\Tavisca.StudentAdmissionSystem\Tavisca.StudentAdmissionSystem.Service\bin\Debug\netcoreapp2.1\Tavisca.StudentAdmissionSystem.Adapter.pdb
+C:\Users\asharma\Desktop\StudentAdmissionSystem\Tavisca.StudentAdmissionSystem\Tavisca.StudentAdmissionSystem.Service\bin\Debug\netcoreapp2.1\Tavisca.StudentAdmissionSystem.Contract.pdb
 C:\Users\asharma\Desktop\StudentAdmissionSystem\Tavisca.StudentAdmissionSystem\Tavisca.StudentAdmissionSystem.Service\obj\Debug\netcoreapp2.1\Tavisca.StudentAdmissionSystem.Service.csprojAssemblyReference.cache
 C:\Users\asharma\Desktop\StudentAdmissionSystem\Tavisca.StudentAdmissionSystem\Tavisca.StudentAdmissionSystem.Service\obj\Debug\netcoreapp2.1\Tavisca.StudentAdmissionSystem.Service.csproj.CoreCompileInputs.cache
 C:\Users\asharma\Desktop\StudentAdmissionSystem\Tavisca.StudentAdmissionSystem\Tavisca.StudentAdmissionSystem.Service\obj\Debug\netcoreapp2.1\Tavisca.StudentAdmissionSystem.Service.AssemblyInfoInputs.cache
@@ -19,3 +21,11 @@ C:\Users\asharma\Desktop\StudentAdmissionSystem\Tavisca.StudentAdmissionSystem\T
 C:\Users\asharma\Desktop\StudentAdmissionSystem\Tavisca.StudentAdmissionSystem\Tavisca.StudentAdmissionSystem.Service\obj\Debug\netcoreapp2.1\Tavisca.StudentAdmissionSystem.Service.csproj.CopyComplete
 C:\Users\asharma\Desktop\StudentAdmissionSystem\Tavisca.StudentAdmissionSystem\Tavisca.StudentAdmissionSystem.Service\obj\Debug\netcoreapp2.1\Tavisca.StudentAdmissionSystem.Service.dll
 C:\Users\asharma\Desktop\StudentAdmissionSystem\Tavisca.StudentAdmissionSystem\Tavisca.StudentAdmissionSystem.Service\obj\Debug\netcoreapp2.1\Tavisca.StudentAdmissionSystem.Service.pdb
+C:\Users\asharma\Desktop\StudentAdmissionSystem\Tavisca.StudentAdmissionSystem\Tavisca.StudentAdmissionSystem.Service\bin\Debug\netcoreapp2.1\Tavisca.Platform.Common.Core.dll
+C:\Users\asharma\Desktop\StudentAdmissionSystem\Tavisca.StudentAdmissionSystem\Tavisca.StudentAdmissionSystem.Service\bin\Debug\netcoreapp2.1\Tavisca.StudentAdmissionSystem.ConsulServices.dll
+C:\Users\asharma\Desktop\StudentAdmissionSystem\Tavisca.StudentAdmissionSystem\Tavisca.StudentAdmissionSystem.Service\bin\Debug\netcoreapp2.1\Tavisca.Platform.Common.Core.pdb
+C:\Users\asharma\Desktop\StudentAdmissionSystem\Tavisca.StudentAdmissionSystem\Tavisca.StudentAdmissionSystem.Service\bin\Debug\netcoreapp2.1\Tavisca.StudentAdmissionSystem.ConsulServices.pdb
+C:\Users\asharma\Desktop\StudentAdmissionSystem\Tavisca.StudentAdmissionSystem\Tavisca.StudentAdmissionSystem.Service\bin\Debug\netcoreapp2.1\Tavisca.Common.Plugins.Configuration.Core.dll
+C:\Users\asharma\Desktop\StudentAdmissionSystem\Tavisca.StudentAdmissionSystem\Tavisca.StudentAdmissionSystem.Service\bin\Debug\netcoreapp2.1\Tavisca.Platform.Common.Models.Core.dll
+C:\Users\asharma\Desktop\StudentAdmissionSystem\Tavisca.StudentAdmissionSystem\Tavisca.StudentAdmissionSystem.Service\bin\Debug\netcoreapp2.1\Tavisca.Common.Plugins.Configuration.Core.pdb
+C:\Users\asharma\Desktop\StudentAdmissionSystem\Tavisca.StudentAdmissionSystem\Tavisca.StudentAdmissionSystem.Service\bin\Debug\netcoreapp2.1\Tavisca.Platform.Common.Models.Core.pdb

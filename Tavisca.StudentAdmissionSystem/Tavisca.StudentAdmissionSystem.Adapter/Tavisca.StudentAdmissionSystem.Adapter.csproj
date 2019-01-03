@@ -12,4 +12,9 @@
     <PackageReference Include="Newtonsoft.Json" Version="12.0.1" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Tavisca.StudentAdmissionSystem.ConsulServices\Tavisca.StudentAdmissionSystem.ConsulServices.csproj" />
+    <ProjectReference Include="..\Tavisca.StudentAdmissionSystem.Contract\Tavisca.StudentAdmissionSystem.Contract.csproj" />
+  </ItemGroup>
+
 </Project>

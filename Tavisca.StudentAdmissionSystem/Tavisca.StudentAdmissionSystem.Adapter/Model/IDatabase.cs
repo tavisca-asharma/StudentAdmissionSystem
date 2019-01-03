@@ -1,11 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using Tavisca.StudentAdmissionSystem.Contract.Model; 
 
 namespace Tavisca.StudentAdmissionSystem.Adapter.Model
 {
     public interface IDatabase
     {
-        string SaveStudentInformation(StudentAdmissionRequest requestAdmission);
+        Student SaveStudentInformation(Student requestAdmission);
     }
 }

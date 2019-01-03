@@ -9,10 +9,14 @@
   </ItemGroup>
 
   <ItemGroup>
+    <PackageReference Include="Consul.Microsoft.Extensions.Configuration" Version="0.0.2" />
     <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.1.1" />
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Submodules\platform-common\Tavisca.Common.Plugins.Configuration\Tavisca.Common.Plugins.Configuration.Core.csproj" />
+    <ProjectReference Include="..\Tavisca.StudentAdmissionSystem.Contract\Tavisca.StudentAdmissionSystem.Contract.csproj" />
     <ProjectReference Include="..\Tavisca.StudentAdmissionSystem.Service\Tavisca.StudentAdmissionSystem.Service.csproj" />
   </ItemGroup>
 
